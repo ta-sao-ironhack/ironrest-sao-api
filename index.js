@@ -155,11 +155,13 @@ app.get("/", function (req, res, next) {
     .listCollections({}, { nameOnly: true })
     .toArray(function (err, collections) {
       if (err) return next(err);
-      collections.unshift({ DOCS: `https://github.com/Tzikas/MONGO_REST` });
+      collections.unshift({
+        DOCS: `https://github.com/ironhack-sao-wdft/MONGO_REST`,
+      });
       res.json(collections);
     });
 });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 8080, function () {
   console.log("server running");
 });
