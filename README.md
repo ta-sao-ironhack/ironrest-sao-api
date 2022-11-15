@@ -1,6 +1,6 @@
 # Ironhack Mongo Rest API
 
-Simple REST API to allow for basic CRUD at the endpoint [https://ironrest.herokuapp.com](https://ironrest.herokuapp.com/ )
+Simple REST API to allow for basic CRUD at the endpoint [https://ironrest.herokuapp.com](https://ironrest.cyclic.app/ )
 
 *The location of this repo will probably change to an IH one I just don't know where yet*
 
