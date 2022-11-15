@@ -1,6 +1,6 @@
 # Ironhack Mongo Rest API
 
-Simple REST API to allow for basic CRUD at the endpoint [https://ironrest.herokuapp.com](https://ironrest.cyclic.app/ )
+Simple REST API to allow for basic CRUD at the endpoint [https://ironrest.cyclic.app](https://ironrest.cyclic.app/ )
 
 *The location of this repo will probably change to an IH one I just don't know where yet*
 
@@ -24,7 +24,7 @@ Simple API crud functionality.
 
 	GET /:collection
     
-*(e.g.) https://ironrest.herokuapp.com/puppies* will get all the puppies
+*(e.g.) https://ironrest.cyclic.app/puppies* will get all the puppies
 
 
 **Create a Collection by passing any name you want.**
