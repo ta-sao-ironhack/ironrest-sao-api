@@ -19,10 +19,9 @@ app.use(function (err, req, res, next) {
 
 var dbo;
 
-MongoClient.connect(url, function (err, db) {
-  if (err) throw err;
-  dbo = db.db("ironrest-api");
-  //dbo = db.db("MONGO_REST");
+MongoClient.connect(url, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
 /**COLLECTIONS */
