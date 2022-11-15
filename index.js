@@ -1,7 +1,7 @@
 var MongoClient = require("mongodb").MongoClient;
 var dotenv = require("dotenv");
 dotenv.config();
-var url = process.env.mongoURL;
+var url = process.env.MONGODB_URI;
 console.log(url);
 var express = require("express");
 var cors = require("cors");
@@ -21,7 +21,7 @@ var dbo;
 
 MongoClient.connect(url, function (err, db) {
   if (err) throw err;
-  dbo = db.db("ironrest");
+  dbo = db.db("ironrest-api");
   //dbo = db.db("MONGO_REST");
 });
 
