@@ -160,7 +160,7 @@ MongoClient.connect(url, {
       .toArray(function (err, collections) {
         if (err) return next(err);
         collections.unshift({
-          DOCS: `https://github.com/ironhack-sao-wdft/MONGO_REST`,
+          DOCS: `https://github.com/ironhack-sao-wdft/ironrest-sao-api`,
         });
         res.json(collections);
       });
