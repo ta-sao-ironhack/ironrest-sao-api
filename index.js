@@ -21,7 +21,7 @@ MongoClient.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then((response) => {
-  var dbo = response.db("ironrest-api");
+  var dbo = response.db("ironrest-sao-db");
 
   /**COLLECTIONS */
 
